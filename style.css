@@ -10,7 +10,7 @@ body{
 
 .upper-banner{
     background-color: #2D25A0;
-    display: block;
+    /* display: block; */
 }
 
 .upper-parts{
@@ -76,7 +76,7 @@ body{
 .card{
     width: auto;
     height: auto;
-    background-color: red;
+    background-color: #FFFFFF;
     padding: 15px;
     box-shadow: 2px 2px 20px black;
     border-radius: 5px; 
@@ -114,8 +114,7 @@ h1{
 /* footer--------------- */
 
 footer{
-    /* text-align: center;
-    margin-top: 5px;    */
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,39 +142,3 @@ footer{
 }
 
 
-/* media Queries */
-
-/* Mobile Devices */
-
-@media only screen and (max-width:688px){
-    /* main{
-        
-    } */
-
-    .upper-banner{
-        background-color: yellow;
-        width: 360px;
-        
-        font-size: 36px;
-    }
-
-    .upper-parts{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .first-block{
-        margin:auto;
-        padding: auto;
-        
-    }
-    .second-block{
-        margin: auto;
-        padding: auto;
-        
-    }
-    
-}
