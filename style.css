@@ -1,0 +1,181 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* upper- banner */
+
+.upper-banner{
+    background-color: #2D25A0;
+    display: block;
+}
+
+.upper-parts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.upper-parts:hover .second-block img{
+    
+    transform:  scale(1.1) rotate(10deg) translateY(5px);
+    transition: all 1s ease-out;
+}
+
+
+.first-block{
+    margin: 30px;
+    padding: 50px;
+    
+}
+.second-block{
+    margin: 30px;
+    padding: 50px;
+    
+}
+
+.head-line{
+    color: #FFFFFF;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.watch-link{
+   background-color:  #E02C6D;
+   text-decoration: none;
+   color: #FFFFFF;
+    padding: 10px 24px;
+}
+
+/* player - cards */
+
+.articles{
+    background-color: #fffbfb;
+    width: 1440px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.player-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:30px ;
+    row-gap: 27px;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    background-color: red;
+    padding: 15px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    /* margin-left: 50px; */
+    
+   }
+
+
+.player-info {
+    white-space: wrap; 
+  width: auto; 
+  height: 150px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: clip ;
+  
+  }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ }
+
+.title{
+
+ text-align: left;
+
+}
+
+h1{
+ font-size: 20px;
+}
+
+/* footer--------------- */
+
+footer{
+    /* text-align: center;
+    margin-top: 5px;    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.footer-logo{
+    width: auto;
+    height: auto;
+}
+
+.social-logos{
+    justify-content: center;
+}
+
+.social-logo{
+    padding-right: 14px;
+}
+
+.copy-rights{
+    font-size: 18px;
+}
+
+
+/* media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+    /* main{
+        
+    } */
+
+    .upper-banner{
+        background-color: yellow;
+        width: 360px;
+        
+        font-size: 36px;
+    }
+
+    .upper-parts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .first-block{
+        margin:auto;
+        padding: auto;
+        
+    }
+    .second-block{
+        margin: auto;
+        padding: auto;
+        
+    }
+    
+}
